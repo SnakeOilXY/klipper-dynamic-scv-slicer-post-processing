@@ -1,6 +1,6 @@
 import os
 
-SRC_FILE_PATH = str(os.path.dirname(os.path.abspath(__file__))) + "/raft-ps.gcode"
+SRC_FILE_PATH = str(os.path.dirname(os.path.abspath(__file__))) + "/sample.gcode"
 
 try:
     with open(SRC_FILE_PATH, mode='r', encoding='UTF-8') as srcFile:
