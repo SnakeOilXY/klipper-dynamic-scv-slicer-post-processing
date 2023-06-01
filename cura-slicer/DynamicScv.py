@@ -64,7 +64,7 @@ class DynamicScv(Script):
                     "label": "    Skin SCV",
                     "description": "Skin Square Corner Velocity",
                     "type": "int",
-                    "default_value": 15,
+                    "default_value": 5,
                     "minimum_value": "1",
                     "maximum_value" : "100",
                     "enabled": "enable_dynamic_scv"
