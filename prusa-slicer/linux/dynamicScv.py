@@ -17,6 +17,10 @@ GCODE_CMD = "SET_VELOCITY_LIMIT SQUARE_CORNER_VELOCITY={SCV_VALUE} ;DynamicSCV({
 # ;TYPE:Solid infill
 # ;TYPE:Support material
 # ;TYPE:Overhang perimeter
+# ;TYPE:Bridge infill
+# ;TYPE:Internal infill
+# ;TYPE:Top solid infill
+# ;TYPE:Support material interface
 lineTypes = {
     "default" : "TYPE:Default",
     "custom" : ";TYPE:Custom",
@@ -25,7 +29,11 @@ lineTypes = {
     "external_perimeter" : ";TYPE:External perimeter",
     "solid_infill" : ";TYPE:Solid infill",
     "support_material" : ";TYPE:Support material",
-    "overhang_perimeter" : ";TYPE:Overhang perimeter"
+    "overhang_perimeter" : ";TYPE:Overhang perimeter",
+    "bridge_infill" : ";TYPE:Bridge infill",
+    "internal_infill" : ";TYPE:Internal infill",
+    "top_solid_infill" : ";TYPE:Top solid infill",
+    "support_material_interface" : ";TYPE:Support material interface"
 }
 
 SRC_FILE_PATH=sys.argv[1]

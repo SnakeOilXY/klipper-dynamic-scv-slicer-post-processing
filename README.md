@@ -15,7 +15,7 @@ Inspired by [RomRider](https://github.com/RomRider)'s [klipper-FastGyroidInfill]
 ![prusa-slicer-config](./prusa-slicer.png)
 
 ## Installation (for Cura)
-- Copy <code>dynamicScv.py</code> into your cura <code>scripts</code> folder. (The location of the folder can be checked in Cura menu <code>Help</code> > <code>Show configuration folder</code>. You might need to create <code>scripts</code> if it does not exist.)
+- Copy <code>DynamicScv.py</code> into your cura <code>scripts</code> folder. (The location of the folder can be checked in Cura menu <code>Help</code> > <code>Show configuration folder</code>. You might need to create <code>scripts</code> if it does not exist.)
 - Restart Cura 
 - In cura menu <code>Extensions</code> > <code>Post processing</code> -> <code>Modify G-Code</code> and select <code>Dynamic Square Corner Velocity</code>
 - Enter the suitable SCV value for your machine in the right config section.

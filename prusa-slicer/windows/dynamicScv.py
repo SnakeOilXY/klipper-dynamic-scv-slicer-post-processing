@@ -17,6 +17,9 @@ GCODE_CMD = "SET_VELOCITY_LIMIT SQUARE_CORNER_VELOCITY={SCV_VALUE} ;DynamicSCV({
 # ;TYPE:Solid infill
 # ;TYPE:Support material
 # ;TYPE:Overhang perimeter
+# ;TYPE:Bridge infill
+# ;TYPE:Internal infill
+# ;TYPE:Top solid infill
 lineTypes = {
     "default" : "TYPE:Default",
     "custom" : ";TYPE:Custom",
@@ -25,8 +28,12 @@ lineTypes = {
     "external_perimeter" : ";TYPE:External perimeter",
     "solid_infill" : ";TYPE:Solid infill",
     "support_material" : ";TYPE:Support material",
-    "overhang_perimeter" : ";TYPE:Overhang perimeter"
+    "overhang_perimeter" : ";TYPE:Overhang perimeter",
+    "bridge_infill" : ";TYPE:Bridge infill",
+    "internal_infill" : ";TYPE:Internal infill",
+    "top_solid_infill" : ";TYPE:Top solid infill"
 }
+
 
 SRC_FILE_PATH=sys.argv[1]
 #OUTPUT_FILE_PATH = str(os.getenv('SLIC3R_PP_OUTPUT_NAME'))
